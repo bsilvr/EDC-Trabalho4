@@ -172,8 +172,11 @@
     <Content Include="Account\VerifyPhoneNumber.aspx" />
     <Content Include="App_Data\channel.xsl" />
     <Content Include="App_Data\noticias.xsl" />
+    <Content Include="App_Data\feedLinks.xml" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.journal.css" />
+    <Content Include="Content\bootstrap.journal.min.css" />
     <Content Include="Content\bootstrap.lumen.css" />
     <Content Include="Content\bootstrap.lumen.min.css" />
     <Content Include="Content\bootstrap.min.css" />
@@ -192,8 +195,8 @@
     <Content Include="fonts\fontawesome-webfont.woff" />
     <Content Include="fonts\fontawesome-webfont.ttf" />
     <Content Include="fonts\fontawesome-webfont.eot" />
-    <Content Include="App_Data\blitz_feed.rss" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="manageFeed.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -381,6 +384,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="manageFeed.aspx.cs">
+      <DependentUpon>manageFeed.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="manageFeed.aspx.designer.cs">
+      <DependentUpon>manageFeed.aspx</DependentUpon>
     </Compile>
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

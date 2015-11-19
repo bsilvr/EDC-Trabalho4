@@ -19,8 +19,8 @@
           <xsl:attribute name="comments">
             <xsl:value-of select="comments"/>
           </xsl:attribute>
-          <xsl:attribute name="source">
-            <xsl:value-of select="source"/>
+          <xsl:attribute name="category">
+            <xsl:value-of select="category"/>
           </xsl:attribute>
           <xsl:attribute name="image">
             <xsl:value-of select="image/url"/>
