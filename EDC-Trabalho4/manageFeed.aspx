@@ -64,4 +64,5 @@
         <PagerStyle CssClass="pagination-ys" />
     </asp:FormView>
     <asp:XmlDataSource ID="XmlDataSource1" runat="server" DataFile="~/App_Data/feedLinks.xml"></asp:XmlDataSource>
+    <asp:LinkButton ID="feed" PostBackUrl="~/feed.aspx" runat="server" CssClass="btn btn-primary"><i class="fa fa-rss"></i> Leitor de Feeds</asp:LinkButton>
 </asp:Content>

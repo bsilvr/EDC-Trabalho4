@@ -1,5 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <feed>
-  <link name="Público" url="http://feeds.feedburner.com/PublicoRSS?format=xml"/>
-  <link name="Expresso" url="http://feeds.feedburner.com/expresso-geral?format=xml"/>
+  <link name="Público" url="http://feeds.feedburner.com/PublicoRSS?format=xml" />
+  <link name="Expresso" url="http://feeds.feedburner.com/expresso-geral?format=xml" />
+  <link name="Visão" url="http://rss.impresa.pt/feed/latest/visao.rss" />
 </feed>
