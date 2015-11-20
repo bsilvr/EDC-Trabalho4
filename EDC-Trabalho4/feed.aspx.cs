@@ -48,7 +48,7 @@ namespace EDC_Trabalho4
                 Debug.WriteLine(i.Attributes["title"].Value);
 
                 news.InnerHtml += "" +
-                    "<div class=\"col-lg-4\">" +
+                    "<div class=\"col-xs-12 col-md-6 col-lg-4\">" +
                         "<div class=\"well\" style=\"min-height: 300px\">" +
                             "<div class=\"media\">" +
                                 "<div class=\"media-body\">" +
